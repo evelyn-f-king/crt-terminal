@@ -33,9 +33,6 @@ ONE OF THESE DOESN'T BELONG\n
   THE LAST FRAGMENT'S CLUE:
   +,-,+,*,-,+
   \n
-  \n
-  THE THIRD FRAGMENT:\n
-     CODEX
   \n`;
 		// multiply by 2, then add the sum of digits
 		// answer is 180
@@ -47,7 +44,7 @@ ONE OF THESE DOESN'T BELONG\n
   BUT ANTOHER FRAGMENT HAS THE OPERATORS\n
   \n
   BEFORE WE GET TO THAT, THE THIRD FRAGMENT'S CLUE:\n
-  A = 26, Z = 0
+  A = 25, Z = 0
   \n THE LAST FRAGMENT\n
   INITIAL VALUE: 5\n
   VALUES: 6, 3, 7, 10, 7, 4
