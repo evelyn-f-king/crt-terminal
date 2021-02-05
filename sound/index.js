@@ -16,6 +16,7 @@ function click() {
 }
 
 function typeSound() {
+	// Math.floor(Math.random() * keys.length);
 	let i = Math.floor(Math.random() * keys.length);
 	keys[i].currentTime = 0;
 	keys[i].play();

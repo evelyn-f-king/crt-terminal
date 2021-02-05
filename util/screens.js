@@ -23,6 +23,7 @@ async function boot() {
 		"> SET TERMINAL/LOGON",
 		"USER AUTHENTICATION CHECK"
 	]);
+	await new Promise((r) => setTimeout(r, 2000));
 
 	await pause();
 	return login();
