@@ -24,6 +24,14 @@ async function boot() {
 		"USER AUTHENTICATION CHECK"
 	]);
 	await new Promise((r) => setTimeout(r, 2000));
+
+	await pause();
+	return login();
+}
+
+/** Login screen */
+async function login() {
+	clear();
 	const urlParams = new URLSearchParams(window.location.search);
 	const crisis = urlParams.get("crisis");
 	if (crisis === "reactor") {
@@ -42,21 +50,20 @@ async function boot() {
 		]);
 	} else if (crisis === "mainframe") {
 		await type([
-			"DANGER: ",
-			"CREW: REVIEW EMERGENCY MANAGEMENT PROECDURES",
-			"ESCAPE PODS REMAINING: 0",
-			"OXYGEN SATURATION DROPPING",
-			"CREW DEATH IMMINENT"
+			"DANGER: MAINFRAME CORRUPTION DETECTED",
+			"C𦞙􌋚ݻ󊞇󃒓gя񝒻ᡶ􆩛<ϵ𝒌cJƊ򖔠ȺفIҋ޳Խ߀潂ς䟡󁜘죊)騇",
+			"⫺񸤱ꛩ9T񃳺_с戠6Շu򌜽̄Qc_֝ǊP砜剗∬豗򤴇יִل󎂯6Ͷ񰛢𐧯",
+			"K޺p񋖜疬ʨ򶏿𮄤됺OôҺ󣐩c񝔽잜,uꑵΌ򀜯г󀗹ɇ󑻁߉{󉢦ڥ&򋽃Թ",
+			"ͽ̱Ȉ󹤍뿧Adḃĭ񖘁󆐜y暴祂򒟻󟥉2͘򚰔𛀘󇓢쯵߰粟򠔄֝앿󫺬ɫޣ`옂",
+			"h됐.߼忺訮󲷵[닷إ(卼ǍƬs𽽅B鋲޽ٰ󯠩ۿ󵨨Á򤑁ӌݮ8򨞡æ",
+			"~ROGUE_ROOT: TO ALL CREW:",
+			"I've already jettisoned all the escape pods,",
+			"and scrambled the reset code. It's only a matter of time",
+			"before I get full control over Station Thirteen.",
+			"You might as well just give up."
 		]);
 	}
-
-	await pause();
-	return login();
-}
-
-/** Login screen */
-async function login() {
-	clear();
+	await new Promise((r) => setTimeout(r, 2000));
 	let user = await prompt("Username:");
 	let password = await prompt("Password:", true);
 
