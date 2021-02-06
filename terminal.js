@@ -8,7 +8,6 @@ import { type } from "./util/io.js";
 async function onload() {
 	const urlParams = new URLSearchParams(window.location.search);
 	const command = urlParams.get("command");
-	click();
 	if (command) {
 		const { power } = await import("./util/power.js");
 		const { parse } = await import("./util/io.js");
