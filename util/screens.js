@@ -24,6 +24,31 @@ async function boot() {
 		"USER AUTHENTICATION CHECK"
 	]);
 	await new Promise((r) => setTimeout(r, 2000));
+	const urlParams = new URLSearchParams(window.location.search);
+	const crisis = urlParams.get("crisis");
+	if (crisis === "reactor") {
+		await type([
+			"DANGER: REACTOR OVERHEATING DETECTED",
+			"CREW: REVIEW EMERGENCY MANAGEMENT PROECDURES",
+			"ESCAPE PODS REMAINING: 0"
+		]);
+	} else if (crisis === "lifesupport") {
+		await type([
+			"DANGER: PRIMARY LIFE SUPPORT FAILURE DETECTED",
+			"CREW: REVIEW EMERGENCY MANAGEMENT PROECDURES",
+			"ESCAPE PODS REMAINING: 0",
+			"OXYGEN SATURATION DROPPING",
+			"CREW DEATH IMMINENT"
+		]);
+	} else if (crisis === "mainframe") {
+		await type([
+			"DANGER: ",
+			"CREW: REVIEW EMERGENCY MANAGEMENT PROECDURES",
+			"ESCAPE PODS REMAINING: 0",
+			"OXYGEN SATURATION DROPPING",
+			"CREW DEATH IMMINENT"
+		]);
+	}
 
 	await pause();
 	return login();
