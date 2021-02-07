@@ -17,6 +17,8 @@ if (crisis === null) {
   15 29 56 109 208
        `;
 			// code is 109
+			// tetranacci sequence
+			// last number * 2 - 2^(n-1)
 		} else if (fragment === "2") {
 			output = `
       ~ROGUE_ROOT: THE SECOND FRAGMENT IS NOT GOING TO BE EASY\n
