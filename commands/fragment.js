@@ -14,9 +14,9 @@ if (crisis === null) {
   ~ROGUE_ROOT: YOU'RE NOT GOING TO GET THE FIRST FRAGMENT.\n
   I'VE BURIED THE FRAGMENT IN THE PATTERN\n
   ONE OF THESE DOESN'T BELONG\n
-  15 29 56 107 208
+  15 29 56 109 208
        `;
-			// code is 107
+			// code is 109
 		} else if (fragment === "2") {
 			output = `
       ~ROGUE_ROOT: THE SECOND FRAGMENT IS NOT GOING TO BE EASY\n
@@ -38,8 +38,7 @@ if (crisis === null) {
     +,-,+,*,-,+
     \n
     \n`;
-			// multiply by 2, then add the sum of digits
-			// answer is 180
+			// multiply by 2
 		} else if (fragment === "4") {
 			output = `
     ~ROGUE_ROOT: THE LAST FRAGMENT, NOT GOING TO BE EASY TO GET.\n
