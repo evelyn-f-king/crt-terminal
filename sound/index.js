@@ -1,11 +1,15 @@
-let buttonSound = new Audio("./sound/button.mp3");
-let clickSound = new Audio("./sound/click.mp3");
+let buttonSound = new Audio(
+	"https://ecstatic-bell-944280.netlify.app//sound/button.mp3"
+);
+let clickSound = new Audio(
+	"https://ecstatic-bell-944280.netlify.app//sound/click.mp3"
+);
 
 let keys = [
-	new Audio("./sound/key1.mp3"),
-	new Audio("./sound/key2.mp3"),
-	new Audio("./sound/key3.mp3"),
-	new Audio("./sound/key4.mp3")
+	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key1.mp3"),
+	new Audio("https://ecstatic-bell-944280.netlify.app/sound/key2.mp3"),
+	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key3.mp3"),
+	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key4.mp3")
 ];
 
 function button() {
