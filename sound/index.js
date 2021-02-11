@@ -6,10 +6,10 @@ let clickSound = new Audio(
 );
 
 let keys = [
-	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key1.mp3"),
+	new Audio("https://ecstatic-bell-944280.netlify.app/sound/key1.mp3"),
 	new Audio("https://ecstatic-bell-944280.netlify.app/sound/key2.mp3"),
-	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key3.mp3"),
-	new Audio("https://ecstatic-bell-944280.netlify.app//sound/key4.mp3")
+	new Audio("https://ecstatic-bell-944280.netlify.app/sound/key3.mp3"),
+	new Audio("https://ecstatic-bell-944280.netlify.app/sound/key4.mp3")
 ];
 
 function button() {
