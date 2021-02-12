@@ -14,7 +14,7 @@ if (crisis === null) {
   ~ROGUE_ROOT: YOU'RE NOT GOING TO GET THE FIRST FRAGMENT.\n
   I'VE BURIED THE FRAGMENT IN THE PATTERN\n
   ONE OF THESE DOESN'T BELONG\n
-  15 29 56 109 208
+  15 29 56 111 208
        `;
 			// code is 109
 			// tetranacci sequence
