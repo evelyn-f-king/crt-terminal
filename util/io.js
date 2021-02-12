@@ -68,9 +68,9 @@ function getChar(char) {
 async function type(
 	text,
 	{
-		wait = 35, // Time (ms) to wait between each character
-		initialWait = 1000, // Time (ms) to wait before typing starts
-		finalWait = 500, // Time (ms) to wait when typing is finished
+		wait = 25, // Time (ms) to wait between each character
+		initialWait = 750, // Time (ms) to wait before typing starts
+		finalWait = 250, // Time (ms) to wait when typing is finished
 		typerClass = "", // Class to add to the typing container, in order to style is with CSS
 		useContainer = false, // If true, types text into the container element (3rd parameter). If false, creates a new div
 		stopBlinking = true, // Stop blinking when typing is done
