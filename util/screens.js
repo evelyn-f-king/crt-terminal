@@ -18,6 +18,8 @@ async function boot() {
 		"..........",
 		"...",
 		".",
+		"SYSTEM DATE: 04/19/2295",
+		"SYSTEM RESTART REQUIRED",
 		"OK.",
 		" ",
 		"> SET TERMINAL/LOGON",

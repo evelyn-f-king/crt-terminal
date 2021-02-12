@@ -1,0 +1,34 @@
+Station Commander Wang - Databank Log - 09/12/2281 - 23:22 -
+Someone or something has damaged the station. I'm about to use the last of the escape pods; the rest of the crew is safe. Whatever is on this
+station, it's safely contained, but several of the station's systems are still crippled; the life support, the mainframe, and the reactor.
+To save Station 13, we will need to repair at least one of these systems.
+
+Security Chief Null - Databank Log - 09/02/2281 - 11:22 -
+I've told them, I don't know how many times, but their passwords can't be admin/admin to everything.
+What's the point of being a security officer if we can't secure anything?
+
+Security Chief Null - Databank Log - 09/12/2281 - 21:02 -
+Commander, I've noticed something peculiar on our mainframe that might explain why the reactor and life support went haywire. It looks... alive. I can't reset it, and it's in danger of taking over the station's core systems. I've shut down the mainframe completely.
+Until someone powers up the mainframe again, the station should more or less be held in stasis, but the station will hardly be functional without a working mainframe.
+
+Damage Controlman Jaffer - Databank Log - 09/12/2281 - 19:14 -
+The reactor has started to overheat. I started the shutdown procedures at around 180,000 Kelvin, 
+which means we have plenty of time to fix it when we turn it back on, but when we do,
+it will invariably start overheating again. It looks like someone tampered with most of the settings; it will need a master reset.
+We'll need to reset it following the procedure in the manual. Until then, we're on emergency power.
+
+Engineering Officer Zhou - Databank Log - 09/12/2281 - 18:35 -
+Commander, the life support system is all kinds of broken. I've been forced to shut it down entirely. It's as if someone broke in and 
+changed all the settings to random values, then disabled all the ventilation. We have enough air for a short while,
+but if we try to restart the system, the failing ventilation will vent the remaining air, which will cut our time down to 25 minutes or so. 
+We need to reset it completely, which is not going to be easy, since it's not designed to be reset frivolously.
+
+Station Commander Wang - Databank Log - 09/02/2281 - 13:22 -
+I just got an email from Security Chief Null. I don't see what's so bad about having such a simple password. I've never 
+forgotten it!
+
+Science Officer Alzayer - Databank Log - 09/07/2281 - 13:22 -
+All, I have reset the master mainframe mainframe reset code. It is now 15 digits long, instead of that ridiculous "admin" you had before.
+
+~ROGUE_ROOT - Databank Log - 09/12/2281 - 21:01 -
+Powering down the mainframe to trap me? Pathetic. Someone is going to come along eventually and power it up!
