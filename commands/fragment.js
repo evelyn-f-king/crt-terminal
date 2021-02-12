@@ -3,7 +3,7 @@ const fragment = urlParams.get("fragment");
 const crisis = urlParams.get("crisis");
 let output = "";
 if (crisis === null) {
-	output = "Mainframe operating normally. No fragmentation required.";
+	output = "Mainframe is powered down.";
 } else if (crisis === "mainframe") {
 	if (fragment === null) {
 		output = "There is no mainframe fragment on this terminal.";
