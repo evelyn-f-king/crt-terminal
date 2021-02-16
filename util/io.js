@@ -295,7 +295,7 @@ async function parse(input) {
 		console.error(e);
 		// Kinda abusing TypeError to check if the import failed
 		if (e instanceof TypeError) {
-			return await type("Unknown command");
+			return await type("Unknown command. Type help for help.");
 		}
 		// E.g. syntax error while executing the command
 		else {

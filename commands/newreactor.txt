@@ -1,0 +1,22 @@
+reactor crisis redesign: 
+goal: more puzzle, less annoying sync puzzle
+to get 1 signal in command center:
+pick correct fuse order:
+
+Damage Controlman Jaffer - Databank Log - 03/2/2281 - 12:20 -
+Substation A's fuse blew again, guys. I always forget the order you have to reset the breakers in to get the green signal.
+A, C, D, B? No, that's not right. B, D, C, A?
+
+Science Officer Alzayer - Databank Log - 03/02/2281 - 14:30 -
+RE: A, C, D, B. I really wish they'd give us better documentation. It's like they designed this thing to be a puzzle.
+
+Security Chief Null - Databank Log - 04/21/2281 - 05:22 -
+Substation B is offline, must have been something to do with the "experiment" the Science Officer attempted with my pet. 
+I want my pet back, by the way. That's what we get for using all these different fuse types. I tried to tell them when we installed the medlab that we should just do it like we did A,
+but nothing can be standard, of course. And why did we go with FreedomCorp? Those guys are ridiculous. Did anyone even read their brochure?
+The terminal has a manual for each fuse type, although I think the Science Officer should be the one to fix it this time, since he vaporized my chinchilla. 
+
+Engineering Officer Zhou - Databank Log - 05/12/2279 - 00:12 -
+If I get paged. One more time. For substation C. I'm gonna overload the reactor myself. It just keeps breaking randomly. I swear, I can only get the signal to light up for a few seconds when I rewire the fuse box on the other side of the bay!
+Everyone else is asleep, I need help to deal with this.
+
