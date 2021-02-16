@@ -35,7 +35,7 @@ async function boot() {
 async function login() {
 	clear();
 	const urlParams = new URLSearchParams(window.location.search);
-	await new Promise((r) => setTimeout(r, 1000));
+	await new Promise((r) => setTimeout(r, 500));
 	let user = await prompt("Username:");
 	let password = await prompt("Password:", true);
 
@@ -47,7 +47,7 @@ async function login() {
 		return main();
 	} else {
 		await type(["Incorrect user and/or password.", "Please try again"]);
-		await pause(3);
+		await pause(1);
 		clear();
 		return login();
 	}

@@ -69,7 +69,7 @@ async function type(
 	text,
 	{
 		wait = 25, // Time (ms) to wait between each character
-		initialWait = 750, // Time (ms) to wait before typing starts
+		initialWait = 250, // Time (ms) to wait before typing starts
 		finalWait = 250, // Time (ms) to wait when typing is finished
 		typerClass = "", // Class to add to the typing container, in order to style is with CSS
 		useContainer = false, // If true, types text into the container element (3rd parameter). If false, creates a new div
