@@ -68,7 +68,7 @@ function getChar(char) {
 async function type(
 	text,
 	{
-		wait = 25, // Time (ms) to wait between each character
+		wait = 15, // Time (ms) to wait between each character
 		initialWait = 250, // Time (ms) to wait before typing starts
 		finalWait = 250, // Time (ms) to wait when typing is finished
 		typerClass = "", // Class to add to the typing container, in order to style is with CSS
