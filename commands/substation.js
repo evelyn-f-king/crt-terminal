@@ -31,13 +31,15 @@ async function reactor() {
     ]);
   } else if (brand.toLowerCase() === "total value") {
     await type([
-      "Total Value fuses are designed for long term use.",
+      "Total Value fuses are designed for long term use,",
       "and can operate in harsh conditions. Do not open fuse",
       "boxes unless reactor temperature exceeds 1,000,000,000,000 Kelvin."
     ]);
   } else if (brand.toLowerCase() === "freedomcorp") {
     await type([
       "Here at FreedomCorp, you're always free to choose our fuses!",
+      "Our fuses must be replaced annually, in order to ensure a",
+      "healthy relationship between customer and company.",
       "Replacing any other fuse first will trigger our patented",
       "Competitor Deterrence Fuse, which will reset the remaining breakers",
       "and make you think twice about switching off of FreedomCorp!"
