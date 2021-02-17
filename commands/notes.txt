@@ -57,20 +57,27 @@ forgotten it!
 Engineering Officer Zhou - Databank Log - 03/2/2281 - 18:35 -
 I can't go a week without replacing one of these fuses. What are we protecting against, exactly?
 And why did we sign that contract with FreedomCorp? It wasn't even fine print!
+
 Rear Admiral Chen - Databank Log - 01/04/2280 - 08:22 -
 The design of this station is ridiculous. There should be ONE button to reset the life support, not a carefully
 choreographed thirteen step process that requires a crew of four. It's like they designed this thing to be a puzzle!
 
+Security Chief Null - Databank Log - 2/5/2281 - 17:01 -
+As we discussed in our protocol review yesterday, we will store only a portion of the mainframe reset code on each of the four Cybernetics Core terminals.
+This way, if someone breaks into one of them, they don't have the ability to reset the whole mainframe.
 
 Science Officer Alzayer - Databank Log - 09/07/2281 - 13:22 -
-All, I have reset the master mainframe mainframe reset code. It is now 15 digits long, which is much more.
+All, I have reset the master mainframe mainframe reset code. It is now 15 digits long, which is much more secure.
 
-Science Officer Alzayer - Databank Log - 10/24/2281 - 13:22 -
+Science Officer Alzayer - Databank Log - 10/24/2281 - 15:22 -
 I found a cute little pattern hiding in one of our databanks, the tetranacci sequence.
 I wonder what it's doing here. It looks like it's got something to do with our mainframe reset code?
 
 -- ESSENTIAL FOR PUZZLE LOGS -- 
 
+Engineering Officer Zhou - Databank Log - 02/4/2281 - 14:43 -
+I've sent out invites for this year's reset protocol review. As usual, we're going to put the instructions for resetting the reactor in the terminal,
+under the "reactor" command. The rest of the emergency instructions will go in there as well. Pizza will be provided, if that convinces you to show up.
 Damage Controlman Jaffer - Databank Log - 03/2/2281 - 12:20 -
 Substation A's fuse blew again, guys. I always forget the order you have to reset the breakers in to get the green signal.
 A, D, C, B? No, that's not right. B, D, C, A?
